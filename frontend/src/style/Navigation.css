@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navigation ul a {
+  color: var(--primary);
+  margin-left: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-icon {
+  display: flex;
+  gap: 2rem;
+  margin-right: 2rem;
+}

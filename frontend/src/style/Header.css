@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: relative;
+}
+
+.background-office {
+  width: 100%;
+}
+
+.profile-picture {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  bottom: -115px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.name {
+  position: absolute;
+  color: var(--secondary);
+  font-family: var(--font);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 32px;
+  left: 50%;
+  bottom: 150px;
+  transform: translate(-50%);
+}
+
+.occupation {
+  position: absolute;
+  color: var(--secondary);
+  font-family: var(--font);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 32px;
+  left: 50vw;
+  top: 180px;
+  transform: translate(-50%);
+}
+
+.acceuil {
+  position: absolute;
+  color: var(--secondary);
+  font-family: var(--font);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 32px;
+  left: 80px;
+  bottom: 0px;
+  transform: translate(-50%);
+}
+
+.title {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 100px;
+  color: var(--secondary);
+  font-family: var(--font);
+  font-style: italic;
+  font-weight: 100;
+  font-size: 32px;
+}
+
+.bottom {
+top: 160px;
+font-weight: 700;
+}
